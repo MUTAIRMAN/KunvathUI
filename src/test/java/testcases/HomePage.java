@@ -27,16 +27,7 @@ import resources.base;
 public class HomePage extends base {
 
 
-	@BeforeClass
-	public void initialize() throws IOException {
-		setDatahandler();
-	}
 	
-	@BeforeMethod
-	public void initializeDriver_() throws IOException{
-		initializeDriver();
-	}
-
 	@Test
 	public void basePageNavigation() throws Exception {
 		TestData=getTestData("TC_Test_001");
@@ -72,13 +63,5 @@ public class HomePage extends base {
 		Assert.assertEquals(lp.getTitle().getText().trim(),"WebServices Testing using SoapUI");
 	}
 
-	@AfterMethod()
-	public void closeDriver()
-	{
-		getDriver().close();
-	}
-	@AfterClass
-	public void teardown() {
-	}
-
+	
 }

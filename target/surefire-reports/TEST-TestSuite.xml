@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="17.077" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="25.955" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Muthukumar\Downloads\E2EProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6249067220324146938.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Muthukumar\Downloads\E2EProject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2989777780317839479.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_181/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_181/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_181/bin/../jre/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\apache-maven-3.5.4\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\sbt\bin;&quot;C:\Program Files\php;C:\Program Files\php\ext&quot;;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Muthukumar\AppData\Local\Microsoft\WindowsApps;C:\Users\Muthukumar\AppData\Roaming\npm;C:\Gradle\gradle-5.6\bin;C:\Program Files\Docker Toolbox;C:\Program Files\Git\bin;C:\Users\Muthukumar\AppData\Local\Programs\Python\Python37-32\;C:\Users\Muthukumar\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Program Files\heroku\bin;C:\Users\Muthukumar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Muthukumar\.dotnet\tools;C:\Users\Muthukumar\AppData\Local\Microsoft\WindowsApps;;C:\Users\Muthukumar\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,6 +60,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="basePageNavigation" classname="testcases.HomePage" time="5.008"/>
-  <testcase name="basePageNavigation2" classname="testcases.HomePage" time="4.614"/>
+  <testcase name="basePageNavigation" classname="testcases.HomePage" time="10.69"/>
+  <testcase name="basePageNavigation2" classname="testcases.HomePage" time="6.389"/>
 </testsuite>

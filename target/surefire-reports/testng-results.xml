@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Test-class Suite" duration-ms="13708" started-at="2022-02-26T00:04:03Z" finished-at="2022-02-26T00:04:17Z">
+  <suite name="Test-class Suite" duration-ms="22350" started-at="2022-02-26T13:10:54Z" finished-at="2022-02-26T13:11:16Z">
     <groups>
     </groups>
-    <test name="Validating User login" duration-ms="13708" started-at="2022-02-26T00:04:03Z" finished-at="2022-02-26T00:04:17Z">
+    <test name="Validating User login" duration-ms="22350" started-at="2022-02-26T13:10:54Z" finished-at="2022-02-26T13:11:16Z">
       <class name="testcases.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.HomePage@3de8f619]" name="initialize" is-config="true" duration-ms="644" started-at="2022-02-26T05:34:03Z" finished-at="2022-02-26T05:34:04Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.HomePage@e350b40]" name="initialize" is-config="true" duration-ms="850" started-at="2022-02-26T18:40:54Z" finished-at="2022-02-26T18:40:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="initializeDriver_()[pri:0, instance:testcases.HomePage@3de8f619]" name="initializeDriver_" is-config="true" duration-ms="2081" started-at="2022-02-26T05:34:04Z" finished-at="2022-02-26T05:34:06Z">
+        <test-method status="PASS" signature="initializeDriver_()[pri:0, instance:testcases.HomePage@e350b40]" name="initializeDriver_" is-config="true" duration-ms="3073" started-at="2022-02-26T18:40:55Z" finished-at="2022-02-26T18:40:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver_ -->
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:testcases.HomePage@3de8f619]" name="basePageNavigation" duration-ms="5005" started-at="2022-02-26T05:34:06Z" finished-at="2022-02-26T05:34:11Z">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:testcases.HomePage@e350b40]" name="basePageNavigation" duration-ms="10691" started-at="2022-02-26T18:40:58Z" finished-at="2022-02-26T18:41:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.HomePage@3de8f619]" name="closeDriver" is-config="true" duration-ms="60" started-at="2022-02-26T05:34:11Z" finished-at="2022-02-26T05:34:11Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.HomePage@e350b40]" name="closeDriver" is-config="true" duration-ms="71" started-at="2022-02-26T18:41:09Z" finished-at="2022-02-26T18:41:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initializeDriver_()[pri:0, instance:testcases.HomePage@3de8f619]" name="initializeDriver_" is-config="true" duration-ms="1246" started-at="2022-02-26T05:34:11Z" finished-at="2022-02-26T05:34:12Z">
+        <test-method status="PASS" signature="initializeDriver_()[pri:0, instance:testcases.HomePage@e350b40]" name="initializeDriver_" is-config="true" duration-ms="1215" started-at="2022-02-26T18:41:09Z" finished-at="2022-02-26T18:41:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver_ -->
-        <test-method status="PASS" signature="basePageNavigation2()[pri:0, instance:testcases.HomePage@3de8f619]" name="basePageNavigation2" duration-ms="4613" started-at="2022-02-26T05:34:12Z" finished-at="2022-02-26T05:34:17Z">
+        <test-method status="PASS" signature="basePageNavigation2()[pri:0, instance:testcases.HomePage@e350b40]" name="basePageNavigation2" duration-ms="6390" started-at="2022-02-26T18:41:10Z" finished-at="2022-02-26T18:41:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation2 -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.HomePage@3de8f619]" name="closeDriver" is-config="true" duration-ms="36" started-at="2022-02-26T05:34:17Z" finished-at="2022-02-26T05:34:17Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.HomePage@e350b40]" name="closeDriver" is-config="true" duration-ms="40" started-at="2022-02-26T18:41:16Z" finished-at="2022-02-26T18:41:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.HomePage@3de8f619]" name="teardown" is-config="true" duration-ms="0" started-at="2022-02-26T05:34:17Z" finished-at="2022-02-26T05:34:17Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.HomePage@e350b40]" name="teardown" is-config="true" duration-ms="0" started-at="2022-02-26T18:41:16Z" finished-at="2022-02-26T18:41:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

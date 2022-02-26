@@ -20,6 +20,10 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 
 import com.aventstack.extentreports.ExtentTest;
 
@@ -64,6 +68,26 @@ public class base {
 	// Reporter Variables
 	public static List<String> StepsPass = new ArrayList<String>();
 	public static List<String> StepsFail = new ArrayList<String>();
+	
+	@BeforeClass
+	public void initialize() throws IOException {
+		setDatahandler();
+	}
+	
+	@BeforeMethod
+	public void initializeDriver_() throws IOException{
+		initializeDriver();
+	}
+	
+	@AfterMethod()
+	public void closeDriver()
+	{
+		getDriver().close();
+	}
+	@AfterClass
+	public void teardown() {
+	}
+
 
 	public ThreadLocal<WebDriver> initializeDriver() throws IOException {
 		String browserName = property.getProperty("browser");
@@ -111,6 +135,7 @@ public class base {
 		
 		driver.set(driverClass);
 		driverClass.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driverClass.manage().window().maximize();
 	    return driver;
 
 	}
