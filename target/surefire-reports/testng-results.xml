@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-class Suite" duration-ms="13708" started-at="2022-02-26T00:04:03Z" finished-at="2022-02-26T00:04:17Z">
+    <groups>
+    </groups>
+    <test name="Validating User login" duration-ms="13708" started-at="2022-02-26T00:04:03Z" finished-at="2022-02-26T00:04:17Z">
+      <class name="testcases.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.HomePage@3de8f619]" name="initialize" is-config="true" duration-ms="644" started-at="2022-02-26T05:34:03Z" finished-at="2022-02-26T05:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initializeDriver_()[pri:0, instance:testcases.HomePage@3de8f619]" name="initializeDriver_" is-config="true" duration-ms="2081" started-at="2022-02-26T05:34:04Z" finished-at="2022-02-26T05:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver_ -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:testcases.HomePage@3de8f619]" name="basePageNavigation" duration-ms="5005" started-at="2022-02-26T05:34:06Z" finished-at="2022-02-26T05:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.HomePage@3de8f619]" name="closeDriver" is-config="true" duration-ms="60" started-at="2022-02-26T05:34:11Z" finished-at="2022-02-26T05:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initializeDriver_()[pri:0, instance:testcases.HomePage@3de8f619]" name="initializeDriver_" is-config="true" duration-ms="1246" started-at="2022-02-26T05:34:11Z" finished-at="2022-02-26T05:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver_ -->
+        <test-method status="PASS" signature="basePageNavigation2()[pri:0, instance:testcases.HomePage@3de8f619]" name="basePageNavigation2" duration-ms="4613" started-at="2022-02-26T05:34:12Z" finished-at="2022-02-26T05:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation2 -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.HomePage@3de8f619]" name="closeDriver" is-config="true" duration-ms="36" started-at="2022-02-26T05:34:17Z" finished-at="2022-02-26T05:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.HomePage@3de8f619]" name="teardown" is-config="true" duration-ms="0" started-at="2022-02-26T05:34:17Z" finished-at="2022-02-26T05:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.HomePage -->
+    </test> <!-- Validating User login -->
+  </suite> <!-- Test-class Suite -->
+</testng-results>
